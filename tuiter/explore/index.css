@@ -161,15 +161,19 @@
     position: absolute;
     z-index: 5;
     left: 12px;
-    top: 12px;
+    top: 22px;
     color: darkgray;
 }
 
 .mb-3
 .fa-cog {
     position:absolute;
-    left: 415;
-    top: 12px;
+    left: 460;
+    top: 22px;
+}
+
+.wd-searchbar{
+    margin-top:10px;
 }
 
 .wd-searchbar::placeholder{
@@ -179,4 +183,26 @@
 .wd-sm-logo {
   width:48px;
   height:48px;  
+}
+
+.wd-topic {
+    color:darkgray
+}
+.wd-topic > span.wd-headline {
+    color: black;
+    font-weight: bold;
+}
+
+.wd-topic {
+    margin-bottom: 10px;
+    padding:0;
+}
+
+.wd-who {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.wd-name{
+    font-weight: bold;
 }
