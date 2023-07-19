@@ -156,6 +156,11 @@
 .wd-tuit-btn {
     margin-top: 10px;
 }
+
+.mb-3 {
+    position: relative;
+}
+
 .mb-3
 .fa-search {
     position: absolute;
@@ -167,9 +172,9 @@
 
 .mb-3
 .fa-cog {
-    position:absolute;
-    left: 460;
-    top: 22px;
+    position:relative;
+    top: 18px;
+    Padding-left: 30px;
 }
 
 .wd-searchbar{
