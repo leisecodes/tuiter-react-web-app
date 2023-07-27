@@ -1,5 +1,5 @@
 import './App.css';
-import Labs from './labs';
+import Labs from "./labs/a3"
 import HelloWorld from "./labs/a3/hello-world";
 import Tuiter from "./tuiter";
 import * as React from "react";
