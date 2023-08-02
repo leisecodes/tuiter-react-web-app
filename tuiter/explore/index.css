@@ -1,0 +1,213 @@
+
+ 
+ body {
+    font: 14px Arial;
+ }
+ .wd-navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+ }
+
+ .wd-navigation > li {
+    padding: 5px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    font-size: 1.6em;
+    text-align: left;
+    cursor: pointer;
+ }
+
+ .wd-navigation .wd-active {
+    font-weight: bold;
+ }
+
+ .wd-navigation > li > a {
+    color: black;
+    text-decoration: none;
+ }
+
+ .wd-navigation > .li.wd-button {
+    height: 40px;
+    background-color: rgb(29, 155, 240);
+    font-weight: bold;
+    text-align: center !important;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px; 
+ }
+
+ wd.wd-navigation > .li.wd-button > a {
+    color: white;
+    position: relative;
+    top: 5px;
+ }
+ 
+
+.wd-explore-main {
+    border-right: solid;
+    border-left: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+.wd-explore-main > .wd-explore-search {
+    position: relative;
+    padding-right: 40px;
+}
+
+.wd-explore-main > .wd-explore-search > .fas.fa-search{
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    color: darkgrey
+}
+
+.wd-explore-main > .wd-explore-search > .wd-search {
+    background-color: lightgray;
+    color: darkgray;
+    height: 40px;
+    padding-left: 45px;
+    margin-left: 15px;
+    width: 450px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.wd-explore-main > .wd-explore-search > .fa.fa-cog {
+    color: black;
+    position: absolute;
+    top: 13px;
+    left: 500px;
+}
+
+.wd-explore-tabs > li.wd-tab{
+    display: inline-block;
+    padding-right: 30px;
+    color: darkgray;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+.wd-explore-tabs > li.wd-tab > span.current{
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: royalblue;
+    border-width: 3px;
+    color: black;
+}
+
+.wd-explore-img {
+    position: relative;
+}
+
+.wd-img-main {
+    width: 100%;
+}
+
+.wd-img-caption {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color:white;
+    font-size: larger;
+
+}
+
+.wd-trending > .wd-trending-list {
+    list-style-type: none;
+    
+}
+
+.wd-trending-list > li.wd-topic {
+    color:darkgrey;
+    font-size: smaller;
+}
+
+.wd-trending-list > li.wd-keyword {
+    color: black;
+    font-weight: bold;
+    font-size: small;
+
+}
+
+.wd-trending-list > li.wd-amount {
+    color:darkgray;
+    margin-bottom: 15px;
+    font-size: smaller;
+}
+
+.fas.fa-ellipsis-h {
+    color:darkgray;
+    position:absolute;
+    left: 700px;
+}
+.list-group-item.active {
+    color:white;
+}
+
+.wd-navigation-bs {
+    padding: 10px;
+}
+
+.wd-tuit-btn {
+    margin-top: 10px;
+}
+
+.mb-3 {
+    position: relative;
+}
+
+.mb-3
+.fa-search {
+    position: absolute;
+    z-index: 5;
+    left: 12px;
+    top: 22px;
+    color: darkgray;
+}
+
+.mb-3
+.fa-cog {
+    position:relative;
+    top: 18px;
+    Padding-left: 30px;
+}
+
+.wd-searchbar{
+    margin-top:10px;
+}
+
+.wd-searchbar::placeholder{
+    padding-left:30px;
+}
+
+.wd-sm-logo {
+  width:48px;
+  height:48px;  
+}
+
+.wd-topic {
+    color:darkgray
+}
+.wd-topic > span.wd-headline {
+    color: black;
+    font-weight: bold;
+}
+
+.wd-topic {
+    margin-bottom: 10px;
+    padding:0;
+}
+
+.wd-who {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.wd-name{
+    font-weight: bold;
+}
